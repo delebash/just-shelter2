@@ -1,0 +1,44 @@
+////body, html {
+////  height: 100%;
+////background-color: red;
+////}
+////#my-div{
+////  background-color: yellow
+////}
+//
+//
+html, body {
+  height: 100%;
+  width: 100%;
+    padding:0;
+    margin:0;
+
+}
+body {
+  display: flex;
+}
+
+.desktop {
+  flex: 1;
+  background-image: url("../../images/icewolf.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn-start {
+  background-image: url( '../../images/Computer-Desktop.png' );
+  width : 48px;
+  height : 48px;
+padding: 0px;
+}
+
+
+//#css-button {
+//  margin : 10px;
+//  background-image: url( '../../images/Computer-Desktop.png' );
+//  width : 45px;
+//  height : 45px;
+//  border-style: none;
+//  background-repeat: no-repeat;
+//}

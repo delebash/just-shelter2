@@ -1,0 +1,74 @@
+<template>
+  <section>
+    <div class="container-fluid">
+      <form>
+    <div class="form-group row">
+     <div class="col-sm-9">
+      <label for="id" class="col-sm-6 col-form-label">id</label>
+            <input type="number"  value.bind="animal.id" class="form-control" id="id" placeholder="">
+     </div>
+    </div>
+    <div class="form-group row">
+     <div class="col-sm-9">
+      <label for="non_shelter" class="col-sm-6 col-form-label">non_shelter</label>
+              <input type="text"  value.bind="animal.non_shelter" class="form-control" id="non_shelter" placeholder="">
+     </div>
+    </div>
+    <div class="form-group row">
+     <div class="col-sm-9">
+      <label for="hold_until" class="col-sm-6 col-form-label">hold_until</label>
+              <input type="text"  value.bind="animal.hold_until" class="form-control" id="hold_until" placeholder="">
+     </div>
+    </div>
+    <div class="form-group row">
+     <div class="col-sm-9">
+      <label for="hold_until_date" class="col-sm-6 col-form-label">hold_until_date</label>
+              <input type="text"  value.bind="animal.hold_until_date" class="form-control" id="hold_until_date" placeholder="">
+     </div>
+    </div>
+    <div class="form-group row">
+     <div class="col-sm-9">
+      <label for="name" class="col-sm-6 col-form-label">name</label>
+           <input type="text"  value.bind="animal.name" class="form-control" id="name" placeholder="">
+     </div>
+    </div>
+    <div class="form-group row">
+     <div class="col-sm-9">
+      <label for="date_of_birth" class="col-sm-6 col-form-label">date_of_birth</label>
+              <input type="text"  value.bind="animal.date_of_birth" class="form-control" id="date_of_birth" placeholder="">
+     </div>
+    </div>
+    <div class="form-group row">
+     <div class="col-sm-9">
+      <label for="estimated_age" class="col-sm-6 col-form-label">estimated_age</label>
+              <input type="text"  value.bind="animal.estimated_age" class="form-control" id="estimated_age" placeholder="">
+     </div>
+    </div>
+    <div class="form-group row">
+     <div class="col-sm-9">
+      <label for="lookup_sex_id" class="col-sm-6 col-form-label">lookup_sex_id</label>
+              <input type="text"  value.bind="animal.lookup_sex_id" class="form-control" id="lookup_sex_id" placeholder="">
+     </div>
+    </div>
+    <div class="form-group row">
+     <div class="col-sm-9">
+      <label for="lookup_animal_type_id" class="col-sm-6 col-form-label">lookup_animal_type_id</label>
+              <input type="text"  value.bind="animal.lookup_animal_type_id" class="form-control" id="lookup_animal_type_id" placeholder="">
+     </div>
+    </div>
+    <div class="form-group row">
+     <div class="col-sm-9">
+      <label for="lookup_animal_category_id" class="col-sm-6 col-form-label">lookup_animal_category_id</label>
+              <input type="text"  value.bind="animal.lookup_animal_category_id" class="form-control" id="lookup_animal_category_id" placeholder="">
+     </div>
+    </div>
+    <div class="form-group row">
+     <div class="col-sm-9">
+      <label for="lookup_spiecies_id" class="col-sm-6 col-form-label">lookup_spiecies_id</label>
+              <input type="text"  value.bind="animal.lookup_spiecies_id" class="form-control" id="lookup_spiecies_id" placeholder="">
+     </div>
+    </div>
+  <button class="btn btn-success" click.delegate="save()">Save</button>
+</section>
+</template>
+

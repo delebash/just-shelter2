@@ -1,0 +1,19 @@
+<template>
+<require from="./my-accordion.css"></require>
+  <ul class="accordion">
+    <li click.delegate="onNavClick(row)"  repeat.for="row of router.navigation">
+      <a href="${row.href}">${row.title}</a>
+    </li>
+  </ul>
+</template>
+
+
+
+<!--<ul class="accordion">-->
+  <!--<li class="file" onclick="location.href='#/customer-detail';" style="cursor:pointer;">-->
+    <!--<a href="#">Customers</a>-->
+    <!--<ul class="sub-menu">-->
+      <!--<li onclick="location.href='#/animalList';" style="cursor:pointer;"><a href="#">Sub</a></li>-->
+    <!--</ul>-->
+  <!--</li>-->
+<!--</ul>-->

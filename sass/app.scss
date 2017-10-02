@@ -1,0 +1,64 @@
+section {
+  margin: 0 20px 0 0;
+}
+
+////FOR Navigation Drawer
+//.wrapper {
+//  display: grid;
+//  grid-template-columns: 200px 1fr 60px;
+//  grid-template-rows: auto auto;
+//}
+
+//.logo {
+//  text-align: center;
+//  color: white;
+//  grid-column: 1;
+//  grid-row: 1;
+//}
+
+//.title {
+//  text-align: center;
+//  color: white;
+//  grid-column: 2 / span 3;
+//  grid-row: 1;
+//}
+//.accordion{
+//  grid-column: 1 / span 2;
+//  grid-row: 2;
+//  background-color: white;
+//}
+
+
+.header{
+  grid-row: row 1 ;
+  grid-column: col 1;
+  //background: lightskyblue;
+  //background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87cefa), color-stop(100%, #5785ff));
+  //background: linear-gradient(top,  #87cefa 0%, #5785ff 100%);
+  //height: 40px;
+}
+
+
+body { margin: 0; }
+
+
+
+
+////FOR Navigation Drawer
+//.wrapper {
+//  display: grid;
+//  grid-template-columns: 60px 64px 1fr 140px;
+//  //grid-template-columns: 60px 64px 1fr 140px;
+//  grid-template-rows: auto auto;
+//  background-color: #7a98ff;
+//  color: #ff6885;
+//}
+//
+//.content {
+//  grid-column: 1 / span 4;
+//  grid-row: 2;
+//}
+//#title{
+//  text-align: center;
+//  color:white;
+//}
