@@ -33,7 +33,7 @@ export class NavBar {
       myrouter.navigateToRoute('animal-list')
     } else if (args.activeIndex === 1) {
 
-      $("#syncfusionMenu").ejMenu({ width: "100%",height:"30px",
+      $("#animalMenu").ejMenu({ width: "100%",height:"30px",
         fields: {dataSource: data, id: "id", parentId: "parentId", text: "text", width:"600px"},
         click: this.menuClick
       });
