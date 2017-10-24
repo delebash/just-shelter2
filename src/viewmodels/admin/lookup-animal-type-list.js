@@ -12,6 +12,7 @@ export class LookupAnimalTypeList{
     that  = shared;
     myroute = router;
     this.api = api;
+    this.api.connect(endpoint);
   }
 
   async attached() {

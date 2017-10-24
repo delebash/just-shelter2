@@ -94,7 +94,7 @@ module.exports = ({production, server, extractCss, coverage} = {}) => ({
   },
   plugins: [
     new ModuleDependenciesPlugin({
-      "aurelia-syncfusion-bridge": ["./grid/grid", "./grid/column","./ribbon/ribbon","./menu/menu","./button/button","./splitbutton/splitbutton","./dropdownlist/dropdownlist"],
+      "aurelia-syncfusion-bridge": ["./grid/grid", "./grid/column","./ribbon/ribbon","./menu/menu","./button/button","./splitbutton/splitbutton","./dropdownlist/dropdownlist","./checkbox/checkbox"],
     }),
     new AureliaPlugin(),
     new ProvidePlugin({

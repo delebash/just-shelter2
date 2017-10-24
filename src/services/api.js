@@ -36,12 +36,17 @@ export class Api {
     await remote.create(data)
   }
   async update(id,data) {
-    //Change Local
-    await remote.patch(id,data)
+    await remote.update(1,data)
   }
   async delete(id) {
     //Change Local
     await remote.remove(id)
+  }
+  async staticRead(table,query){
+    return await app.service(table).find({
+      paginate: false,
+      query: query
+    });
   }
 }
 

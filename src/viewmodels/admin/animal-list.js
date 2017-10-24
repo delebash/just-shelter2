@@ -12,6 +12,7 @@ export class AnimalList{
     that  = shared;
     myroute = router;
     this.api = api;
+    this.api.connect(endpoint);
   }
 
   async attached() {
@@ -20,7 +21,12 @@ export class AnimalList{
     let data = await this.api.read(query);
     $('#Grid').ejGrid({
       dataSource: data,
-      recordDoubleClick: this.rowClicked
+      recordDoubleClick: this.rowClicked,
+      columns : [
+        { field : "name", headerText : "Name" },
+        { field : "category.type", headerText : "Type" }
+
+      ]
     });
   }
   rowClicked(e){

@@ -16,7 +16,9 @@ export async function configure(aurelia) {
     .plugin(PLATFORM.moduleName('aurelia-syncfusion-bridge'), (syncfusion) => syncfusion.ejMenu())
     .plugin(PLATFORM.moduleName('aurelia-syncfusion-bridge'), (syncfusion) => syncfusion.ejButton())
     .plugin(PLATFORM.moduleName('aurelia-syncfusion-bridge'), (syncfusion) => syncfusion.ejSplitButton())
-    .plugin(PLATFORM.moduleName('aurelia-syncfusion-bridge'), (syncfusion) => syncfusion.ejDropDownList());
+    .plugin(PLATFORM.moduleName('aurelia-syncfusion-bridge'), (syncfusion) => syncfusion.ejDropDownList())
+    .plugin(PLATFORM.moduleName('aurelia-syncfusion-bridge'), (syncfusion) => syncfusion.ejCheckBox())
+    .feature(PLATFORM.moduleName('resources/index'));
 
   // Uncomment the line below to enable animation.
   // aurelia.use.plugin(PLATFORM.moduleName('aurelia-animator-css'));
